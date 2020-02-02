@@ -1,0 +1,45 @@
+body{
+	background-color: #EEE;
+}
+#header{
+	background-color: #77C9D4;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+#container{
+	background-color: #57BC90;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+#content{
+	padding: 10px;
+}
+#nav{
+	width: 180px;
+	float: left;
+	font-weight: 50;
+	font-size:25px;
+}
+#main{
+	width:900px;
+	float:right;
+}
+#footer{
+	 clear: both;
+}
+.profileimage{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.smallheading{
+	color: #015249;
+	font-weight: bold;
+}
+#footer{
+	background-color: #A5A5AF;
+}
