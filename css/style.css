@@ -1,6 +1,16 @@
 body{
 	background-color: #EEE;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+  color: #9ed9e0;
+}
+a:active {
+  color: black;
+}
 #header{
 	background-color: #77C9D4;
 	text-align: center;
@@ -23,10 +33,13 @@ body{
 	float: left;
 	font-weight: 50;
 	font-size:25px;
+	padding:20px;
+
 }
 #main{
 	width:900px;
 	float:right;
+	height: 900px;
 }
 #footer{
 	 clear: both;
@@ -42,4 +55,57 @@ body{
 }
 #footer{
 	background-color: #A5A5AF;
+	text-align: right;
+	padding: 10px;
+}
+li{
+	margin:17px;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+#nav .selected{
+	font-weight: bold;
+}
+.eduimage{
+	float: right;
+	 border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.edu{
+	padding: 70px;
+	font-size:24px;
+	margin: 10px;
+}
+.workHeading{
+	text-align: center;
+}
+.workText{
+	margin: 60px;
+	font-size: 18px;
+}
+.workImage{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projectsimage{
+	float: right;
+	 border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.projects{
+	padding: 70px;
+	font-size:24px;
+	margin: 10px;
+}
+#projectsHeading{
+	text-align: center;
+}
+.projectText{
+	text-align: center;
 }
