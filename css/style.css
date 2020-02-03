@@ -109,3 +109,6 @@ li{
 .projectText{
 	text-align: center;
 }
+.video{
+	float: left;
+}
